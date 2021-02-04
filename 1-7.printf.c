@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//printf()의 서식을 여러가지로 활용해보는 페이지
 
 main()
 {
