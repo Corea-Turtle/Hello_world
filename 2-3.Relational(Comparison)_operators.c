@@ -13,7 +13,7 @@ main()
 
 /* 
 
-비교 연산자(Comparison_Operators)는 변수나 수치 등의 값을 비교하여 조건식을 만들고 그 결과에 따라 처리를 변경할 수 있다.
+비교(관계) 연산자[Comparison(Relational)_Operators]는 변수나 수치 등의 값을 비교하여 조건식을 만들고 그 결과에 따라 처리를 변경할 수 있다.
 
 
 조건 성립 -> 참 (true : 1)
