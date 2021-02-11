@@ -6,6 +6,7 @@ main()
     printf("2 x (8 -6) ÷ 2 = %d\n", 2*(8-6)/2);
     printf("1 - 2 + 3 = %d\n", 1-2+3);
     printf("1 - (2 + 3) = %d\n", 1-(2+3);
+          
 }
 
 /*
@@ -28,6 +29,14 @@ Logical OR	                      ||	                                            
 Conditional	                      ?:	                                                              Right to left  R
 Assignment	        = += -= *= /= %=>>= <<= &= ^= |=	                                              Right to left  R
 Comma	                            ,	                                                                Left to right
+
+ex)
+a = b = c = 1;  
+->assignment 이므로 오른쪽에서 왼쪽으로 계산 c = 1 , b = c, a = b 순으로 계산해서 1 출력
+
+c = a == b
+Equality 가 우선수위이므로 a==b 가 참이면 1, 거짓이면 0을 c에 대입
+
 
 참고웹페이지
 https://yaraba.tistory.com/418 개인블로그
