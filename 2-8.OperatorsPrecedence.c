@@ -39,7 +39,7 @@ Equality 가 우선수위이므로 a==b 가 참이면 1, 거짓이면 0을 c에 
 
 
 참고웹페이지
-https://yaraba.tistory.com/418 개인블로그
+https://yaraba.tistory.com/418 개인블로그 - 연습문제 2개
 https://en.cppreference.com/w/c/language/operator_precedence
 https://dojang.io/mod/page/view.php?id=188 코딩도장 -매우 자세하게 나와있음
 */
