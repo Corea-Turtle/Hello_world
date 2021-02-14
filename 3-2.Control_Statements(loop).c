@@ -49,4 +49,6 @@ main()
     }
 }
 
+
+https://www.tutorialspoint.com/cprogramming/c_loops.htm 루프 반복 개념 참고 사이트
 */
