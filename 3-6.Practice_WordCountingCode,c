@@ -1,0 +1,44 @@
+#include<stdio.h>
+
+main()
+{
+    char c = '\0';        //키보드에서 입력한 한글자
+    char firstletter;   //맨 처음 글자를 담아둔다.
+    int wordnum;        //단어의 수
+    int word_in;        //단어에 들어가면 ture
+
+    while (1)
+    {
+        wordnum = 0;
+        word_in = 1;
+        firstletter = '\0';
+        printf("문자열을 입력하세요 : ");
+        while (1)
+        {
+            c = getchar();
+            if (c == '\n') {
+                if (word_in)
+                    wordnum++;
+                break;
+            }
+            firstletter = c;
+            if (c == ' ' || c == '.') {
+                if (word_in)
+                {
+                    wordnum++;
+                    word_in = 0;
+                }
+            }
+            else
+                word_in = 1;
+        }
+        if (firstletter == '\0')
+            break;
+        printf("단어 수 : %d\n", wordnum);
+    }
+}
+
+/* char c = '\0';을 왜 해주는지 모르겠다.
+char firstletter; 맨처음 글자를 왜 담아두는지 모르겠다.
+스페이스 1번을 누르거나 여러번 누르면 단어수 1로 표시됨
+*/
