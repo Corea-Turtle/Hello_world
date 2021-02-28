@@ -100,5 +100,5 @@ main()
 }
 
 dst가 NULL포인터였기 때문에 buf의 값을 가져오지 못하였다. dst를 설정해주니까 해결되었다.
-
+https://linuxhint.com/memcpy_function_c_programming/ memcpy()참조
 */
