@@ -57,4 +57,21 @@ if(조건1){
 }
 이렇게 됐을떄 else는 나머지일떄가 아니라 조건 1만 성립할 경우의 처리이다
 따라서 네스트할때는 네스트부분의 else 부터 생각하고 if와 else if를 작성해야한다.
+
+책에 나온 답지는
+
+int largest(int a,int b,int c){
+    int max = a; //max에 a를 할당
+    if(b>max)
+        max = b;
+    if(c>max)
+        max = c;
+    retrun max;
+}    
+
+레인님 답
+
+return a > b ? a > c ? a : c : b > c ? b : c;
+매우 간단
+
 */
