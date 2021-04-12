@@ -43,3 +43,18 @@ int main(void)
 	return 0;
 }
 
+/*
+삼항 연산자 키가 150이상이면 합격 미만이면 불합격
+*/
+
+#include<stdio.h>
+
+int main(void)
+{
+	int height;
+	printf("키를 입력하세요. : ");
+	scanf_s("%d", &height);
+	height >= 150 ? printf("합격") : printf("불합격");
+
+	return 0;
+}
